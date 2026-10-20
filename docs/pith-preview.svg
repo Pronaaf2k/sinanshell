@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-labelledby="title desc">
+  <title id="title">Pith terminal interface preview</title>
+  <desc id="desc">An illustration of a dark terminal with a mint Pith prompt, a directory path, a pipeline command, and a returned prompt. This is an interface illustration, not test evidence.</desc>
+  <rect width="1000" height="460" rx="16" fill="#10191e"/>
+  <path d="M16 0h968a16 16 0 0 1 16 16v36H0V16A16 16 0 0 1 16 0" fill="#1a262e"/>
+  <circle cx="26" cy="26" r="5" fill="#657c87"/>
+  <circle cx="46" cy="26" r="5" fill="#657c87"/>
+  <circle cx="66" cy="26" r="5" fill="#657c87"/>
+  <g font-family="Consolas, 'JetBrains Mono', monospace" font-size="19">
+    <text x="500" y="33" fill="#a5b8c2" font-size="14" text-anchor="middle">pith / linux terminal</text>
+    <text x="44" y="106" fill="#a1e8cd" font-weight="bold">pith</text>
+    <text x="112" y="106" fill="#d0dde4">/ a little shell of your own</text>
+    <text x="44" y="140" fill="#8298a4" font-size="16">help for commands   |   Ctrl+D to leave</text>
+    <text x="36" y="204" fill="#8298a4">╭─</text>
+    <text x="76" y="204" fill="#a1e8cd" font-weight="bold">pith</text>
+    <text x="134" y="204" fill="#8298a4">·</text>
+    <text x="158" y="204" fill="#c2b6f4">~/cpsc399</text>
+    <text x="36" y="239" fill="#a1e8cd">╰─ ›</text>
+    <text x="102" y="239" fill="#e6edf1">printf '%s\n' hello linux | sort</text>
+    <text x="36" y="275" fill="#b9cbd5">hello</text>
+    <text x="36" y="309" fill="#b9cbd5">linux</text>
+    <text x="36" y="369" fill="#8298a4">╭─</text>
+    <text x="76" y="369" fill="#a1e8cd" font-weight="bold">pith</text>
+    <text x="134" y="369" fill="#8298a4">·</text>
+    <text x="158" y="369" fill="#c2b6f4">~/cpsc399</text>
+    <text x="36" y="404" fill="#a1e8cd">╰─ ›</text>
+    <rect x="103" y="385" width="11" height="24" fill="#a1e8cd"/>
+    <text x="960" y="438" fill="#6f8996" text-anchor="end" font-size="12">INTERFACE ILLUSTRATION</text>
+  </g>
+</svg>

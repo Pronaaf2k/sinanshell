@@ -1,0 +1,13 @@
+# Minimal equivalent reconstructed from the supplied Shell pith transcript.
+# Compare with the actual slide 3 code before the initial SCCS check-in.
+# AI assistance: OpenAI Codex. No personal dogfooding is represented here.
+import os
+
+while True:
+    command = input("$ ")
+    argv = [command]
+    pid = os.fork()
+    if pid == 0:
+        os.execv(command, argv)
+    else:
+        os.waitpid(pid, 0)
